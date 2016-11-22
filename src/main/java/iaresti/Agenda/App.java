@@ -12,20 +12,7 @@ public class App
 {
 	private static Database database = new Database();
 	
-	public static void dec2bin(int num){
-		List<Integer> mybin = new ArrayList<Integer>();
-		if(num==0)
-			System.out.print("0");
-		while(num>0){
-			mybin.add(num%2);
-			num = num / 2;
-		}
-		ListIterator<Integer> binIterator= mybin.listIterator(mybin.size());
-		while(binIterator.hasPrevious()){
-			System.out.print(binIterator.previous());
-		}
-			
-	}
+	
 	
 	private static void menu(int option){
 		int contactPosition;

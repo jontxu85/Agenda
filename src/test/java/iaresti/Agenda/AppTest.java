@@ -30,35 +30,6 @@ public class AppTest
 	    System.setErr(null);
 	}
 	
-	@Test
-	public void decToBin15() {
-	    App.dec2bin(15);
-	    assertEquals("1111", outContent.toString());
-	}
 	
-	@Test
-	public void decToBin10() {	    
-	    App.dec2bin(10);
-	    assertEquals("1010", outContent.toString());
-	}
-	
-	@Test
-	public void decToBin0() {
-	    App.dec2bin(0);
-	    assertEquals("0", outContent.toString());
-	}
-	
-	@Test
-	public void decToBin1() {
-	    App.dec2bin(1);
-	    assertEquals("1", outContent.toString());
-	}
-	
-	@Test
-	public void decToBin2() {
-	    
-	    App.dec2bin(2);
-	    assertEquals("10", outContent.toString());
-	}
 	
 }
