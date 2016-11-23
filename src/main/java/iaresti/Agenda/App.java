@@ -51,6 +51,7 @@ public class App
         int option=0;
        
         while(option != -1){
+        	System.out.println();
         	System.out.println( "1-Añadir contacton\n2-Borrar contacto\n3-Mostrar Contacto"
         			+ "\n4-Mostrar todos los contactos\n5-Para salir pulsa -1\nElige opcion:" );
         	option = Keyboard.readInt();

@@ -25,7 +25,7 @@ public class Database implements AgendaOperation{
 		try {
 			listaContactos.remove(contactPosition);
 		} catch (IndexOutOfBoundsException e) {
-			System.out.println("Esa posición no tiene contacto");
+			System.out.print("Esa posicion no tiene contacto");
 		}
 	}
 
@@ -34,7 +34,7 @@ public class Database implements AgendaOperation{
 		try{
 			contact = listaContactos.get(contactPosition);
 		}catch (IndexOutOfBoundsException e) {
-			System.out.println("Esa posición no tiene contacto");
+			System.out.print("Esa posicion no tiene contacto");
 		}
 		return contact;
 	}
